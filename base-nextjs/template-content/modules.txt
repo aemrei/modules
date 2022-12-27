@@ -1,0 +1,5 @@
+redux-next
+testing-next
+utils-next
+tailwindcss-next
+git

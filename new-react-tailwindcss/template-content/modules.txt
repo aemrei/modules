@@ -1,0 +1,6 @@
+base-react
+redux
+testing-tailwindcss
+tailwindcss-react
+utils-react
+git

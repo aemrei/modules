@@ -1,0 +1,13 @@
+If you are using this with create-react-app, you will need to add this to your package.json:
+```json
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      "prettier"
+    ]
+  }
+```

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx --max-warnings 0 src/",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "**/*.{js,jsx,ts,tsx}": "yarn lint --fix"
+  }
+}
