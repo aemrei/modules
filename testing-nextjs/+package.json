@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "test:ci": "CI=true yarn test --coverage",
+    "test": "jest --env=jsdom"
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "scripts": {
-    "test:ci": "CI=true react-scripts test --env=jsdom --coverage",
-    "storybook": "start-storybook -p 4443 -c .storybook -s public",
-    "build-storybook": "build-storybook -c .storybook -s public"
-  }
-}

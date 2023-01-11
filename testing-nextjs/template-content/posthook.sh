@@ -1,0 +1,1 @@
+echo 'Installed: testing-nextjs'

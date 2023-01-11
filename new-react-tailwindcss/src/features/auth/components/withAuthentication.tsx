@@ -21,7 +21,7 @@ export const withAuthentication = (
       return <Navigate to={"/"} />;
     }
 
-    return <Component />;
+    return <Component {...props} />;
   };
 
   return WithAuthentication;

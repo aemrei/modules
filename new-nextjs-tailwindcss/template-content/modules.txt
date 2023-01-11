@@ -1,0 +1,7 @@
+base-nextjs
+redux
+testing-tailwindcss
+testing-nextjs
+tailwindcss-nextjs
+utils-next
+git

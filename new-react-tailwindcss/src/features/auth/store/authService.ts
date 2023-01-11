@@ -4,14 +4,14 @@ const extendedApi = baseApi.injectEndpoints({
   endpoints: (build) => ({
     login: build.mutation<LoginResponse, LoginRequest>({
       query: (body) => ({
-        url: "login",
+        url: "https://demo-auth.dev.aemre.net/api/login",
         method: "POST",
         body,
       }),
     }),
     logout: build.mutation<void, void>({
       query: () => ({
-        url: "logout",
+        url: "https://demo-auth.dev.aemre.net/api/logout",
         method: "POST",
       }),
     }),
