@@ -1,5 +1,5 @@
 echo "Installing: nextjs"
 
-yarn create next-app . --typescript --eslint
+npx create-next-app@13.1.1 . --typescript --eslint
 
 yarn add next-connect cors

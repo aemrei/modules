@@ -2,14 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer base {
+  html {
+    @apply bg-theme-50 scroll-smooth font-sans;
+  }
   body {
-    @apply bg-slate-300;
+    @apply bg-theme-50 text-theme-900 min-h-screen;
   }
-  .btn {
-    @apply px-4 py-2 rounded-md bg-blue-500 text-white;
+
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    @apply border-theme-300 bg-theme-50 focus:border-theme-500 focus:ring-theme-500 w-full rounded-sm shadow-sm;
   }
+
+  [type="checkbox"],
+  [type="radio"] {
+    @apply border-theme-300 bg-theme-100 focus:border-theme-500 focus:ring-theme-500 shadow-sm;
+  }
+
+  [type="checkbox"] {
+    @apply rounded-sm;
+  }
+
+  [type="checkbox"]:checked,
+  [type="radio"]:checked {
+    @apply bg-theme-500 border-theme-500;
+  }
+
+  button {
+    @apply bg-theme-500 text-theme-900 rounded-sm px-4 py-2;
+  }
+}
+
+@layer utilities {
   .dbg {
-    @apply border border-dashed border-red-500;
+    @apply ring-theme-50 border border-dashed border-red-500;
   }
 }

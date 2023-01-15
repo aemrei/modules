@@ -1,6 +1,6 @@
 base-react
 redux
 testing-tailwindcss
-tailwindcss-react
+tailwindcss
 utils-react
 git

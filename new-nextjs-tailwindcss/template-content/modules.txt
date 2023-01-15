@@ -2,6 +2,6 @@ base-nextjs
 redux
 testing-tailwindcss
 testing-nextjs
-tailwindcss-nextjs
+tailwindcss
 utils-next
 git
